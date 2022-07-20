@@ -1,0 +1,40 @@
+#match{
+    width: 312px;
+    height:242px ;
+}
+.inner-div{
+    width: 252px;
+    margin: 53px 30px 0px 30px;
+}
+
+.image-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#flag,#flag-2{
+    width: 93px;
+    height: 56px;
+}
+#match .inner-div h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    text-align: center;
+}
+#match .inner-div p{
+    font-size: 16px;
+    color: #4D4D4D;
+    text-align: center;
+}
+#schedule-main{
+    margin-bottom:130px ;
+}
+#marked{
+    background-color: #DD0000;
+    color:#fff;
+}
+#mark{
+    color: #fff;
+}

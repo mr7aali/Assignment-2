@@ -8,7 +8,9 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+   
 }
+
 
 /* -----------
 Greatest-show
@@ -70,7 +72,7 @@ Greatest-show
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 1.5s, color 1.5s;
+    transition: background-color 1s, color 1s;
 }               
 .Greatest-show .blog a:hover{
     background-color: #fff;
@@ -97,6 +99,7 @@ main{
     margin: 30px;
     background-color: #fff;
     border-radius: 10px;
+    transition: background-color .5s, color .5s;
 }
 .menu:hover{
     background-color: #DD0000;
@@ -148,9 +151,14 @@ main{
     display: inline-block;
     padding: 4px 16px;
     border: 1px solid #161616;
-    border-radius: 5px;
-                                                                       
+     /* ////////////////////////////////////////////////////////// */
+     transition: background-color .5s, color .5s;
+    border-radius: 5px;                                                                    
     margin:15px auto 19px 20px ;
+}
+.blogs .blog a:hover{
+    background-color: #DD0000;
+    color: #fff;
 
 }
 .blog h3{
@@ -204,6 +212,7 @@ view all
     background-color: #161616;
     display: flex;
     height: 444px;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
