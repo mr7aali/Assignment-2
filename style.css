@@ -60,7 +60,7 @@ Greatest-show
    margin: 0px;
 }
 .Greatest-show .blog p{
-    display: none;
+    /* display: none; */
 }
 .Greatest-show .blog a{
     background-color: #DD0000;

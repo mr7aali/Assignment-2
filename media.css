@@ -116,8 +116,11 @@ footer .heading {
        font-size: 40px;  
 }
 
-.Greatest-show .blog p{
+.Greatest-show .blog p{ 
     font-size: 14px;
+}
+.Greatest-show .blog p span{ 
+    display: none;
 }
 
 .Greatest-show .blog a{
