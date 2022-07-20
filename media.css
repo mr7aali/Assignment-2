@@ -52,7 +52,7 @@
 main{
     width: 100%;
     flex-direction: column;
-    border: 1px solid red;
+   
 }
 .navigation-box{ 
      margin: 24px auto 24px auto;
@@ -61,7 +61,7 @@ main{
 
 .navigation-box .menu{
     
- border: 1px solid red;
+ border: 1px solid #E8E8E8;
 
     
 }
@@ -87,3 +87,89 @@ footer .heading {
 }
     
 }
+
+
+/*================
+ tablet
+ ================ */
+
+ @media only screen and (min-width:689px) and (max-width:992px){
+    .Greatest-show{
+        height: 398px;
+        width:734px ; 
+        margin-bottom: 10px;      
+   }
+  
+   .Greatest-show .blog{
+    
+    height: 276px;
+    width: 316px;
+    margin-left: 61px;
+    margin-top: 76px;
+}
+.Greatest-show .image{
+    height: 340px;
+    width: 323px;  
+    
+}
+   .Greatest-show .blog h1{
+       font-size: 40px;  
+}
+
+.Greatest-show .blog p{
+    font-size: 14px;
+}
+
+.Greatest-show .blog a{
+    
+    padding: 12px;
+    margin-top: 20px;
+    
+    color: #fff;  
+} 
+ /* main div for tab */
+ main{
+    width: 100%;
+    flex-direction: column;
+   
+}
+.navigation-box  {
+    display: flex;
+    width: 100%;
+    height: auto;
+   background-color: #fff;
+   
+}
+.navigation-box .menu{  
+    border: 1px solid #E8E8E8
+    ;
+   }
+   .blogs{
+    grid-template-columns: repeat(2,1fr);
+    margin: 5px auto;
+}
+ .blogs .extra{
+    display: none;
+ }
+ .hidden-btn{
+    visibility: visible;
+ }
+ footer .details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    
+ }
+ .details p{
+    
+    font-size: 12px;
+ }
+ .details .align-grid{
+    grid-column: 2/3;
+ }
+ }
+ @media only screen and (min-width:689px) and (max-width:776px){
+    .details p span{
+        display: none;
+    }
+ }

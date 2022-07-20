@@ -59,6 +59,9 @@ Greatest-show
    color: #fff;
    margin: 0px;
 }
+.Greatest-show .blog p{
+    display: none;
+}
 .Greatest-show .blog a{
     background-color: #DD0000;
     padding: 16px 25px;
@@ -67,8 +70,12 @@ Greatest-show
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 1.5s, color 1.5s;
+}               
+.Greatest-show .blog a:hover{
+    background-color: #fff;
+    color: #DD0000;
 }
-
 /*============
  main section 
 ============= */
@@ -76,16 +83,12 @@ main{
     width: 1321px;
     margin: 0 auto;
     display: flex;
-
 }
 .navigation-box{
     height: 312px;
     width: 312px;
     background-color: #161616;
     border-radius: 10px;
-    
-
-
 }
 
 .navigation-box .menu{
@@ -178,7 +181,7 @@ view all
     display: flex;
     justify-content: center;
     margin: 70px;
-    /* visibility: hidden; */
+    visibility: hidden;
 
 }
 .hidden-btn a{
