@@ -1,0 +1,240 @@
+/*-------------
+ common style
+ ---------- */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,500;1,400;1,600&family=Titillium+Web:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -----------
+Greatest-show
+----------- */
+
+.Greatest-show{
+    /* display: flex; */
+    /* justify-content: space-between; */ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    margin: 50px auto;
+    margin-bottom: 130px;
+    border-radius: 30px;
+    /* position: relative; */
+
+}
+.Greatest-show .blog{
+    
+    height: 424px;
+    width: 531px;
+    margin-left: 106px;
+    margin-top: 111px;
+}
+.Greatest-show .image{
+    height: 613px;
+    width: 581px;  
+    /* position: absolute; */
+    bottom: 0px;
+    right: 79px; 
+    margin-right: 80px;
+    margin-top: auto;
+}
+.Greatest-show .image img{
+    width: 100%;
+}
+.Greatest-show .blog h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    margin: 0px;
+}
+.Greatest-show .blog p{
+    font-size: 16px;
+    font-weight: 400;
+   color: #fff;
+   margin: 0px;
+}
+.Greatest-show .blog a{
+    background-color: #DD0000;
+    padding: 16px 25px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*============
+ main section 
+============= */
+main{
+    width: 1321px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.navigation-box{
+    height: 312px;
+    width: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    
+
+
+}
+
+.navigation-box .menu{
+    width: 252px;
+    height: 64px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.menu:hover{
+    background-color: #DD0000;
+    color: #fff;
+}
+
+.navigation-box .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.navigation-box .menu a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    text-decoration: none;
+}
+.menu:hover a{
+    color: #fff;
+}
+
+
+
+
+
+
+/*----------
+    blogs
+---------- */
+.blogs{
+
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+}
+.blogs .blog{
+    height: 362px;
+    width: 312px;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+}
+.blogs .blog img{
+    width: 312px;
+    height: 175px;
+}
+.blogs .blog a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+                                                                       
+    margin:15px auto 19px 20px ;
+
+}
+.blog h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin: 0 20px;
+}
+.blog .box{
+    display: flex;
+    margin: 20px auto 20px 20px;
+}
+.time ,.comment{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+.comment{
+    margin-left: 30px;
+}
+/* --------------
+hidden-boutton
+view all
+------------------*/
+
+
+.hidden-btn{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    /* visibility: hidden; */
+
+}
+.hidden-btn a{
+    /* display: inline-block; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #DD0000;
+    padding: 12px 30px;
+    border-radius: 7px;
+    
+}
+
+
+/*---------------
+ footer
+--------------- */
+ footer{
+    background-color: #161616;
+    display: flex;
+    height: 444px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+ }
+ .heading{
+    font-weight: 600;
+font-size: 40px;
+    color: #FFF;
+ }
+ .hr{
+    /* width: 1320px; */
+   width: 80%;
+border: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ .details{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-evenly;
+ }
+ .details p{
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+ }
+ 
+  /* media  mobile*/
+
+  
+
+
+
+ 
+ 
+                                                                                                                        

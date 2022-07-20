@@ -1,0 +1,89 @@
+/*--------------
+ mobile divice
+------------- */
+@media only screen and (max-width:688px) {
+    .Greatest-show{
+         height: 472px;
+         width:334px ;  
+         grid-template-columns: 1fr;
+         
+        margin-bottom: 0;
+         
+    }
+    .Greatest-show .blog{
+        width: 258px;
+        height: 178px;
+        margin-top: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .Greatest-show .image{
+        width: 233px;
+        height: 245px;  
+       /* margin: 0 auto; */
+    }
+    .Greatest-show .image img{
+        margin-left: 25%;
+    }
+    .Greatest-show .blog h1{
+        font-size: 22px;
+
+    }
+    .Greatest-show .blog p{
+        font-size: 14px;
+    }
+    .Greatest-show .blog p span{
+        display: none;
+    }
+    .Greatest-show .blog a{
+        
+    padding: 8px 12px;
+    margin-top: 16px;
+    }
+
+
+
+ /* ---------------
+   main div
+   ------------ */
+
+
+main{
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.navigation-box{ 
+     margin: 24px auto 24px auto;
+     background-color: #fff;
+}
+
+.navigation-box .menu{
+    
+ border: 1px solid red;
+
+    
+}
+
+
+
+.blogs{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0px auto;
+ 
+}
+
+/* foooter */
+
+footer .heading {
+    font-size: 22px;
+
+}
+
+.details{
+    flex-direction: column;
+    
+}
+    
+}
